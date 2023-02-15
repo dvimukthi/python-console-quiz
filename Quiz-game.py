@@ -8,22 +8,22 @@ if playing.lower() != "yes":
 print("**Okay! Let's Play** ")
 score = 0
 
-answer = input("What is CPU stand for ? ")
-if answer.lower() == "central processing unit":
+answer = input("What is the biggest island in the World?")
+if answer.lower() == "Greenland":
     print("Correct!")
     score += 1
 else:
     print("Incorrect!")
 
-answer = input("What is GPU stand for ? ")
-if answer.lower() == "graphical processing unit":
+answer = input("What is the largest tropical rain forest in the world? ")
+if answer.lower() == "Amazon":
     print("Correct!")
     score += 1
 else:
     print("Incorrect!")
 
-answer = input("What is RAM stand for ? ")
-if answer.lower() == "random access memory":
+answer = input("What is the capital of Spain? ")
+if answer.lower() == "Madrid":
     print("Correct!")
     score += 1
 else:
